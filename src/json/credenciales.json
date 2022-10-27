@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "encuesta-expendio-empleo",
+  "private_key_id": "d95f1b52ab658f32175b4ca3a23851dce7bb1ab9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0s2QrHZRK/Cgz\nB3y3UhldqQCTqNmWhjWoLZDUR+A9lFzezJ6LQvpFLldJXMK2GmtzWWyGjF7s81GK\niw5TQHpi3EngQrjLfqDj6NvIyMlNg7d+Y+4D5F+kRmZVjGiVUJE0AcaJzp0otVb1\noPceVN2+CSKFw0hYbeWiSxvfrEcn5XVscAFRVMo/wxVQFwP2MCcwi8+YZKjvl40O\nPJsDFLLvtjZUR0A6kh0XmHApoD55ss6U4huAvjUmxbewhEvZ8XtHuWGQkZ5CGcj7\nykWXGslSGpKd5E6on5A8FSEeUDX4pivxh11fEsLFeqpcSYe+M7bsmP61HtbI7D4c\nU6Q/0SRdAgMBAAECggEAGnDDX/GwkLZL1YerbpGTR5qijHig+f8CW+zq67zmqWwL\nmMg9DKiMwVGyEPiDPy0netXjZN6mRyqlTE3jlzfwkIWmQ6vPqWsKdL7OZhdHKVH0\nKAjMO4KPohRxBeSJKwwCayc1W1XBtkKuijt23VfSqGtiw0rbS6EtAC3YUsa9FK+m\nJg8ZP7h8h4PdQHSj+sTBPZfnbv+X7GUqnEaw2SEQqAMsFcQTbREt3+rJTrZTNwAW\n5n2MUt2rZcGZpNBXITlX4ej0jZQNUFYW5akm/Q785LV9B1QPIsX+9Y3/tV8pRbhC\n74VeDnGQ6PqDC5btX3JHHtLzHcuLaYTrKXNfafIriwKBgQDbRlwhquCXb0BOQj0n\nJC209qyEX9eme1fBl27Z4I1hAVo4As0fevMcbypLerEqq74RC/AUkwp7okk+t+V4\nqEyRjDyu/2dFzg/8myh8HBrU25xWmJa/dp5p2Uz8U9O25/F7EpZLpSQfaLgqYcUw\nZlRV5Bk+FeV/mD9kV3FXwSTQAwKBgQDS9yBYgdj7aD1ZC5WySG0Yjwc3fslzfBUA\nS/ZQw3Czdl2zCZ7vt742Ks79aevqdRBi95MPvY5llnPdpMF6S4NhUrXNDGdxH4xm\n0dkLIiFCYgHWtv0BawX5xpXeTdHyKuuWOInLUizo/1Ae77geau3tLwvGGfefiMNB\nywJ/ZTP8HwKBgQCb3kX7gLYpr2Fsv9Usj6EV9ArqBh8LLr5Q1M5tfhvBiu6Qxhz9\nda5+1d6gzNRHWtG+2FeOqH9ZJyEdvicWP7w98gvo8ZB9pF7k135NysSf7oQRYmI2\nM6Gj6F27N/NVH0cejzXbC8bDtPLE3b8ICpWEgKIY6gO7UYQuVaIyGQ+L9QKBgE4I\nTLWQKeMsNmzmZRORyJCp7uBvDDKkNdxrPIu5DsnCwXvE1j4S989vXCrN8A5ECLCi\npInQ8ofO88KK+2mx3sGz5z0WFnj4U2WAv0hn8mdsewOhocnRfV9bPfoBTOPHTma9\nOPK0zZnNPiSDRNYzdRgjK7a1yir/WkHOxni6xVS/AoGASKRd4LLD5DYIO4Id/pQK\nZQuntIXYEWZLm9TT2qPakZ5Z5uZFjkUb2FKqQp3toBjbiyZGgEvK2At1ylV9IpCM\njQYVF87JKBAa4ioIqtftm6mxS0Cl51Hm44bIrft1wVn7v1Ea/yuTIknL2iM0VkK8\nR15fhv60mcHCthb/7tKHtIQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "encuesta-empleo@encuesta-expendio-empleo.iam.gserviceaccount.com",
+  "client_id": "111802587036738624411",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/encuesta-empleo%40encuesta-expendio-empleo.iam.gserviceaccount.com"
+}

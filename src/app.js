@@ -1,21 +1,21 @@
 const express = require('express');
+/* const bodyParser = require('body-parser'); */
 const cors = require('cors');
 
-class Server{
+class App{
     constructor(){
         this.app = express();
         this.port = process.env.PORT;
-        this.usuariosPath = '/api/usuarios';
+        this.expendiosPath = 'api/expendios';
 
-        //middlewares
-        this.middlewares();
+         //middlewares
+         this.middlewares();
 
-        //Rutas de la App
-        this.routes();
+         //routes
+         this.routes();
     }
 
     middlewares(){
-
         //CORS
         this.app.use(cors());
 
@@ -28,7 +28,7 @@ class Server{
     }
 
     routes(){
-        this.app.use(this.usuariosPath, require('../routes/user.routes'));
+        this.app.use(require('./routes/google.routes'));
     }
 
     listen(){
@@ -38,4 +38,4 @@ class Server{
     }
 }
 
-module.exports = Server;
+module.exports = App;
