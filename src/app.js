@@ -7,6 +7,9 @@ class App{
     constructor(){
         this.app = express();
         this.port = process.env.PORT;
+        this.credential =  process.env.CREDENTIALS;
+
+        
         this.expendiosPath = 'api/expendios';
 
         this.app.use(bodyParser.urlencoded({ extended: true}));
