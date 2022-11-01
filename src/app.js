@@ -23,7 +23,11 @@ class App{
 
     middlewares(){
         //CORS
-        this.app.use(cors());
+        var corsOptions = {
+            origin: 'https://encuesta-3275f.web.app',
+            optionSuccessStatus: 200
+        }
+        this.app.use(cors(corsOptions));
 
         //Lectura y parseo de codigo
         this.app.use(express.urlencoded({extended: true}));
