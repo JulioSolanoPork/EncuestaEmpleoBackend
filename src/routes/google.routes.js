@@ -4,7 +4,7 @@ const router = Router();
 
 const { obtenerDatos, guardarRegistroExp, guardarRegistroOtr } = require('../controllers/google.controller');
 
-router.get('/', obtenerDatos);
+router.get('/datos/datos/infinito', obtenerDatos);
 
 router.post('/', guardarRegistroExp);
 

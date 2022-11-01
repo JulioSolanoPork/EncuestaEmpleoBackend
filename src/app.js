@@ -1,5 +1,6 @@
 const express = require('express');
-/* const bodyParser = require('body-parser'); */
+const path = require('path');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 
 class App{
@@ -7,6 +8,8 @@ class App{
         this.app = express();
         this.port = process.env.PORT;
         this.expendiosPath = 'api/expendios';
+
+        this.app.use(bodyParser.urlencoded({ extended: true}));
 
          //middlewares
          this.middlewares();
@@ -24,7 +27,8 @@ class App{
         this.app.use(express.json());
 
         //Directorio publico
-        this.app.use(express.static('public'));
+        const publicPath = path.resolve(__dirname, '../public')
+        this.app.use(express.static( publicPath ));
     }
 
     routes(){
@@ -35,6 +39,7 @@ class App{
         this.app.listen(this.port, ()=>{
             console.log(`Servidor corriendo en puerto ${this.port}`);
         });
+        
     }
 }
 
