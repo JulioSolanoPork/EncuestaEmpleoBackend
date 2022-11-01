@@ -25,6 +25,7 @@ class App{
         //CORS
         var corsOptions = {
             origin: 'https://encuesta-3275f.web.app',
+            methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
             optionSuccessStatus: 200
         }
         this.app.use(cors(corsOptions));
