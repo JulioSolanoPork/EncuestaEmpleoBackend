@@ -16,6 +16,20 @@ const obtenerDatos = async (req, res) =>{
     res.send(data) 
 }
 
+const obtenerDepartamentos = async (req, res) =>{
+    let data= [];    
+    registros = await googleSheet.accederDepartamentosSheet()
+    for(item of registros){
+        data.push({
+            idDepto: item.Codigo_Departamento,
+            departamento: item.Departamento,
+            idMunicipio: item.Codigo_Municipio,
+            municipio: item.Municipio,
+        })
+    }
+    res.send(data) 
+}
+
 const guardarRegistroExp = async (req, res) =>{
     googleSheet.guardarRegistroExpendio(req.body); 
     res.json({message: 'Ok'})
@@ -28,6 +42,7 @@ const guardarRegistroOtr = async (req, res) =>{
 
 module.exports = {
     obtenerDatos,
+    obtenerDepartamentos,
     guardarRegistroExp, 
     guardarRegistroOtr
 }
