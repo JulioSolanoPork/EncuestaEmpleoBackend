@@ -30,12 +30,13 @@ const obtenerDepartamentos = async (req, res) =>{
     res.send(data) 
 }
 
-const guardarRegistroExp = async (req, res) =>{
+const guardarRegistroExp = async (req, res) =>{    
     googleSheet.guardarRegistroExpendio(req.body); 
     res.json({message: 'Ok'})
 }
 
 const guardarRegistroOtr = async (req, res) =>{
+    console.log(req.body);
     googleSheet.guardarRegistroOtros(req.body); 
     res.json({message: 'Ok'})
 }
